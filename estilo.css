@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 5% 95%;
+    background-color: rgb(15,15,15);
+    color: white;
+}
+
+aside div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(15,15,15);
+    font-size: 10px;
+    margin-left: -7px;
+}
+
+aside .stiky{
+    gap: 30px;
+}
+
+.stiky{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(15,15,15);
+    margin-top: 5px;
+}
+
+.stiky div a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra {
+    margin: 0 22px 0 -20px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+
+nav div button {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: none;
+    background-color: rgb(18,18,18);
+}
+
+#barra input {
+    width: 500px;
+    height: 39px;
+    background-color: rgb(18,18,18);
+    color: white;
+    border-radius: 20px 0 0 20px;
+    border-color: rgb(136,136,136);
+    border-width: 1px;
+}
+
+input::placeholder {
+    color: rgb(136,136,136);
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+#lupa {
+    border-radius: 0 20px 20px 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(34,34,34);
+}
+
+#microfono {
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+#usuario {
+    gap: 7px;
+    display: flex;
+    align-items: center;
+}
+
+#usuario button {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    gap: 5px;
+}
+
+#categorias{
+    display: flex;
+    margin: 5px 0 34px 11px;
+    gap: 8px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    height: 36px;
+    background-color: rgb(39,39,39); /*rgb(39,39,39)*/
+    color: rgb(241,241,241); /*rgb(241,241,241)*/
+}
+
+.boton:hover{
+    background-color: rgb(63,63,63);
+    color: rgb(241,241,241);
+}
+
+.recomendacion {
+    padding: 0px 14px;
+}
+
+.filaDeVideos {
+    padding: 0 51px 39px 41px;
+    justify-content: space-between;
+}
+
+#videos {
+    display: flex;
+    flex-direction: column;
+    width: 359px;
+}
+
+.ci {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ci img{
+    border-radius: 10px;
+}
+
+.ci p { /*CREO QUE NO VA!!!*/
+    align-content: flex-end;
+}
+
+.videoo{
+    display: flex;
+    gap: 15px;
+    margin-top: 13px;
+}
+
+.imagen{
+    border-radius: 30px;
+    width: 35px;
+}
+.titulo{
+    font-size: large;
+    margin: 0 0 7px -2px;
+    color: white;
+}
+
+.letrasp {
+    margin: 0 0 2px -2px;
+    color: rgb(170,170,170);
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #0f0f0f;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    height: 56px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: hsl(0, 0%, 67%);
+  }
